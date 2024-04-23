@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Arte</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Galería de Arte Picasso</h1>
+        <p>Bienvenidos a nuestra galería, un espacio donde el arte cobra vida.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#header">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Bienvenidos a nuestra galería de arte, un espacio donde la creatividad y la expresión se encuentran para ofrecer una experiencia única. Descubre una amplia variedad de obras de arte que capturan la esencia de artistas innovadores. Navega a través de nuestras colecciones y déjate cautivar por la belleza y el significado detrás de cada pieza. Únete a nosotros en este viaje artístico y encuentra la inspiración que estás buscando.</p>
+        <p>Además de ser un espacio para apreciar el arte, nuestra galería es un punto de encuentro para amantes del arte, artistas emergentes y coleccionistas. Nos esforzamos por ofrecer un ambiente acogedor donde la pasión por el arte se comparte y se celebra. Si te apasiona el arte tanto como a nosotros, te invitamos a unirte a nuestra comunidad y a explorar las infinitas posibilidades que el mundo del arte tiene para ofrecer. No dudes en contactarnos para más información o para programar una visita. ¡Te esperamos con los brazos abiertos!</p>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="gallery">
+            <img src="assets/obra1.jpg" alt="Obra de arte 1">
+            <img src="assets/obra2.jpg" alt="Obra de arte 2">
+            <img src="assets/obra3.jpg" alt="Obra de arte 3">
+            <img src="assets/obra4.jpeg" alt="Obra de arte 4">
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="tipo">Tipo de solicitud:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="compra">Compra</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="venta">Venta</option>
+                </select>
+            </div>
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Para más información, contáctanos a través de: <br>
+        Dirección: Calle Picasso, 123<br>
+        Teléfono: +123456789</p>
+    </section>
+
+    <footer>
+        <p>Derechos reservados &copy; 2024 Galería de Arte Picasso</p>
+    </footer>
+</body>
+</html>
